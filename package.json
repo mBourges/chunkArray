@@ -1,5 +1,5 @@
 {
-  "name": "chunk-array",
+  "name": "chunkArray",
   "version": "0.0.0-semantically-released",
   "description": "Chunk array in arrays of N depth ",
   "main": "dist/index.js",
