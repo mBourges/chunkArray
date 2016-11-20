@@ -21,3 +21,4 @@ dist
 public
 .env
 .nyc_output
+backup

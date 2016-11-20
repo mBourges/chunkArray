@@ -22,7 +22,7 @@
     "build": "npm-run-all --parallel build:*",
     "build:umd": "webpack --env.dev --output-filename index.js",
     "build:umd.min": "webpack --env.prod --output-filename index.min.js",
-    "validate": "npm run cover && npm run check-coverage",
+    "validate": "npm run lint && npm run cover && npm run check-coverage",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
