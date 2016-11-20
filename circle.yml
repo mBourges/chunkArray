@@ -8,9 +8,9 @@ general:
 dependencies:
   override:
     - npm install
-    - npm install --only=dev
 test:
   override:
-    - npm run test
-    - npm run check-coverage
+    - npm run validate
     - npm run build
+  post:
+    - npm run semantic-release
