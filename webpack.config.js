@@ -29,25 +29,5 @@ module.exports = (env) => {
           }
       }))
     ])
-  }
+  };
 };
-
-/*module.exports = {
-  entry: './src/index',
-  resolve: {
-    extensions: ['.js']
-  },
-  output: {
-    path: Path.join(__dirname, 'dist'),
-    libraryTarget: 'umd',
-    library: 'chunkArray',
-    umdNamedDefine: true
-  },
-  devtool: 'source-map',
-  module: {
-      loaders: [
-        { test: /\.js$/, loader: 'babel-loader', exclude: /(node_modules|bower_components)/ }
-    ]
-  }
-}
-*/
